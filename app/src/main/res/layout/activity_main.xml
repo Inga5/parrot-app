@@ -14,15 +14,20 @@
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         />
+
     <Button
         android:layout_width="match_parent"
-        android:layout_height="" />
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="parrot repeat"
+        />
     
     
 
     <ImageView
         android:id="@+id/jpg_Parrot"
-        android:src="@drawable/Hellroter"
+        android:src="@drawable/hellroter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="center" />
