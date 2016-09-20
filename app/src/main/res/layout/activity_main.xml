@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.com.example.android.parrotapp.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="" />
+    
+    
+
+    <ImageView
+        android:id="@+id/jpg_Parrot"
+        android:src="@drawable/Hellroter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parrot Says..."
+        android:textSize="28dp"
+        android:textColor="@android:color/white"
+        android:background="#81C784"
+        android:layout_below="@id/jpg_Parrot"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+
+
+</LinearLayout>
