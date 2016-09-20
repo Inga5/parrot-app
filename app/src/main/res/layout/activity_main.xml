@@ -8,6 +8,7 @@
 
 
     <EditText
+        android:id="@+id/parrot_says"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="28dp"
@@ -21,25 +22,25 @@
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:text="parrot repeat"
+        android:onClick="submitOrder"
         />
-    
-    
 
     <ImageView
-        android:id="@+id/jpg_Parrot"
+        android:id="@+id/png_parrot"
         android:src="@drawable/hellroter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="center" />
 
     <TextView
+        android:id="@+id/parrot_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Parrot Says..."
         android:textSize="28dp"
         android:textColor="@android:color/white"
         android:background="#81C784"
-        android:layout_below="@id/jpg_Parrot"
+        android:layout_below="@id/png_parrot"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         />
